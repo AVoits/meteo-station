@@ -1,0 +1,18 @@
+@import "../../styles/commonStyles.scss";
+
+.Root {
+  background-color: $primary;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+
+.FooterWrapper {
+  max-width: 1200px;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+
+}

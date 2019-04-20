@@ -1,6 +1,21 @@
 
 .root-app {
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+  .top-block {
+
+  }
+  .center-block {
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  .bottom-block {
+
+  }
 }
 
 

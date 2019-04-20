@@ -1,8 +1,26 @@
-<nav>
-  <ul>
-    <li *ngFor="let menuItem of menu">
-      <a routerLink="/heroes">{{menuItem.title}}</a>
-    </li>
 
+
+<nav>
+  <ul class="main-naw-menu">
+    <li *ngFor="let menu of menuList" class="main-naw-menu-li" >
+
+      <mat-menu #appMenu="matMenu">
+
+        <div
+          mat-menu-item
+          *ngFor="let item of menu.items" >
+            <a
+              [class.main-naw-link]="item"
+              routerLink="{{item.linkTo}}">
+                {{item.title}}
+            </a>
+        </div>
+      </mat-menu>
+
+
+      <button mat-icon-button [matMenuTriggerFor]="appMenu">
+        <div>{{menu.title}}</div>
+      </button>
+    </li>
   </ul>
 </nav>

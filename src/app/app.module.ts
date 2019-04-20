@@ -9,6 +9,20 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatGridListModule,
+  MatIconModule,
+  MatMenuModule
+} from '@angular/material';
+import { AboutComponent } from './components/about/about.component';
+import { StaffComponent } from './components/staff/staff.component';
+import { PersonalPageComponent } from './components/personal-page/personal-page.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -17,12 +31,23 @@ import { HeaderComponent } from './components/header/header.component';
     HeroDetailComponent,
     MessagesComponent,
     MenuComponent,
-    HeaderComponent
+    HeaderComponent,
+    AboutComponent,
+    StaffComponent,
+    PersonalPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatMenuModule,
+    MatIconModule,
+    MatCardModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

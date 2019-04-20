@@ -1,0 +1,19 @@
+@import "../../styles/commonStyles.scss";
+
+.staffWrapper {
+  display: flex;
+}
+
+.staffItem {
+  margin: 0 40px 20px 0;
+
+  .mat-card-title {
+    text-align: center;
+  }
+  .mat-card-subtitle {
+    text-align: center;
+  }
+  .mat-card-content {
+    text-align: center;
+  }
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 const MenuData: Menu[] = [
   {
@@ -104,20 +104,25 @@ interface Menu {
 interface Item {
   title: string;
   linkTo: string;
-
 }
+
 
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.sass']
+  styleUrls: ['./menu.component.scss']
 })
 
 export class MenuComponent implements OnInit {
 
+  public menuList: Menu[];
+  menu: Menu;
+  item: Item;
+
   constructor() { }
 
   ngOnInit() {
+    this.menuList = MenuData;
   }
 
 }
