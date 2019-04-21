@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {AboutComponent} from './components/about/about.component';
 import {StaffComponent} from './components/staff/staff.component';
+import {DataMeteoComponent} from './components/data-meteo/data-meteo.component';
 
 export const routes: Routes = [
   {
@@ -15,6 +16,10 @@ export const routes: Routes = [
   {
     path: 'personal',
     component: StaffComponent
+  },
+  {
+    path: 'data-meteo',
+    component: DataMeteoComponent
   },
   {
     path: '',

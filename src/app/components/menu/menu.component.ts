@@ -71,7 +71,7 @@ const MenuData: Menu[] = [
     items: [
       {
         title: 'Данные',
-        linkTo: 'datas',
+        linkTo: 'data-meteo',
       },
       {
         title: 'Карты',

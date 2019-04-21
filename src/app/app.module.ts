@@ -22,6 +22,7 @@ import { AboutComponent } from './components/about/about.component';
 import { StaffComponent } from './components/staff/staff.component';
 import { PersonalPageComponent } from './components/personal-page/personal-page.component';
 import { FooterComponent } from './components/footer/footer.component';
+import {DataMeteoComponent} from './components/data-meteo/data-meteo.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutComponent,
     StaffComponent,
     PersonalPageComponent,
-    FooterComponent
+    FooterComponent,
+    DataMeteoComponent
   ],
   imports: [
     BrowserModule,
