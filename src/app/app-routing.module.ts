@@ -3,11 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import {AboutComponent} from './components/about/about.component';
 import {StaffComponent} from './components/staff/staff.component';
 import {DataMeteoComponent} from './components/data-meteo/data-meteo.component';
+import {HomeComponent} from './components/home/home.component';
 
 export const routes: Routes = [
   {
     path: 'home',
-    component: AboutComponent
+    component: HomeComponent
   },
   {
     path: 'about',

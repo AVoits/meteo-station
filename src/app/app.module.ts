@@ -23,6 +23,8 @@ import { StaffComponent } from './components/staff/staff.component';
 import { PersonalPageComponent } from './components/personal-page/personal-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {DataMeteoComponent} from './components/data-meteo/data-meteo.component';
+import {HomeComponent} from './components/home/home.component';
+import {SlideshowModule} from "ng-simple-slideshow";
 
 
 @NgModule({
@@ -37,7 +39,8 @@ import {DataMeteoComponent} from './components/data-meteo/data-meteo.component';
     StaffComponent,
     PersonalPageComponent,
     FooterComponent,
-    DataMeteoComponent
+    DataMeteoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -50,6 +53,7 @@ import {DataMeteoComponent} from './components/data-meteo/data-meteo.component';
     MatIconModule,
     MatCardModule,
     MatGridListModule,
+    SlideshowModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
