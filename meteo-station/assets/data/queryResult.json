@@ -1,0 +1,2337 @@
+{
+  "data": {
+    "rp5Data": [
+      {
+        "id": "1",
+        "localTime": "2019-04-03T18:00:00.000Z",
+        "airTempAboveGround": 2.3,
+        "atmPressureStation": 751.9,
+        "atmPressureSea": 769.3,
+        "humidity": 53,
+        "windDirection": "Ветер, дующий с северо-северо-запада",
+        "windSpeed": 1,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 9.9,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -6.5,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "2",
+        "localTime": "2019-04-03T15:00:00.000Z",
+        "airTempAboveGround": 8.5,
+        "atmPressureStation": 751.9,
+        "atmPressureSea": 768.9,
+        "humidity": 32,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 3,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -7.5,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "3",
+        "localTime": "2019-04-03T12:00:00.000Z",
+        "airTempAboveGround": 9.3,
+        "atmPressureStation": 752.8,
+        "atmPressureSea": 769.8,
+        "humidity": 32,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 3,
+        "cloudCover": [
+          40
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          40
+        ],
+        "dewPointTemp": -6.5,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "4",
+        "localTime": "2019-04-03T09:00:00.000Z",
+        "airTempAboveGround": 7.5,
+        "atmPressureStation": 754.3,
+        "atmPressureSea": 771.4,
+        "humidity": 40,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          40
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          40
+        ],
+        "dewPointTemp": -5.5,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "5",
+        "localTime": "2019-04-03T06:00:00.000Z",
+        "airTempAboveGround": 2,
+        "atmPressureStation": 754.9,
+        "atmPressureSea": 772.4,
+        "humidity": 68,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 1,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": -5.3,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -3.4,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "6",
+        "localTime": "2019-04-03T03:00:00.000Z",
+        "airTempAboveGround": -5.1,
+        "atmPressureStation": 754.8,
+        "atmPressureSea": 772.7,
+        "humidity": 93,
+        "windDirection": "Штиль, безветрие",
+        "windSpeed": 0,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": -5.3,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -6.1,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "7",
+        "localTime": "2019-04-03T00:00:00.000Z",
+        "airTempAboveGround": -4.4,
+        "atmPressureStation": 754.7,
+        "atmPressureSea": 772.6,
+        "humidity": 91,
+        "windDirection": "Штиль, безветрие",
+        "windSpeed": 0,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -5.7,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "8",
+        "localTime": "2019-04-02T21:00:00.000Z",
+        "airTempAboveGround": -2.8,
+        "atmPressureStation": 754.7,
+        "atmPressureSea": 772.5,
+        "humidity": 83,
+        "windDirection": "Штиль, безветрие",
+        "windSpeed": 0,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -5.4,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "9",
+        "localTime": "2019-04-02T18:00:00.000Z",
+        "airTempAboveGround": 0.7,
+        "atmPressureStation": 754.3,
+        "atmPressureSea": 771.9,
+        "humidity": 59,
+        "windDirection": "Штиль, безветрие",
+        "windSpeed": 0,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 7.9,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -6.5,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "10",
+        "localTime": "2019-04-02T15:00:00.000Z",
+        "airTempAboveGround": 6.8,
+        "atmPressureStation": 754,
+        "atmPressureSea": 771.1,
+        "humidity": 33,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 2,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -8.3,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "11",
+        "localTime": "2019-04-02T12:00:00.000Z",
+        "airTempAboveGround": 7.9,
+        "atmPressureStation": 754.5,
+        "atmPressureSea": 771.6,
+        "humidity": 32,
+        "windDirection": "Ветер, дующий с северо-северо-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -8,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "12",
+        "localTime": "2019-04-02T09:00:00.000Z",
+        "airTempAboveGround": 6,
+        "atmPressureStation": 755.5,
+        "atmPressureSea": 772.8,
+        "humidity": 36,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 3,
+        "cloudCover": [
+          20,
+          30
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          20,
+          30
+        ],
+        "dewPointTemp": -8.2,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "13",
+        "localTime": "2019-04-02T06:00:00.000Z",
+        "airTempAboveGround": 1.7,
+        "atmPressureStation": 755.2,
+        "atmPressureSea": 772.6,
+        "humidity": 72,
+        "windDirection": "Ветер, дующий с северо-северо-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": -3.9,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -2.8,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "14",
+        "localTime": "2019-04-02T03:00:00.000Z",
+        "airTempAboveGround": -3.7,
+        "atmPressureStation": 754,
+        "atmPressureSea": 771.8,
+        "humidity": 95,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 1,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": -3.9,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -4.4,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "15",
+        "localTime": "2019-04-02T00:00:00.000Z",
+        "airTempAboveGround": -3.3,
+        "atmPressureStation": 753,
+        "atmPressureSea": 770.8,
+        "humidity": 88,
+        "windDirection": "Штиль, безветрие",
+        "windSpeed": 0,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -5.1,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "16",
+        "localTime": "2019-04-01T21:00:00.000Z",
+        "airTempAboveGround": -1.6,
+        "atmPressureStation": 751.9,
+        "atmPressureSea": 769.6,
+        "humidity": 74,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          20,
+          30
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          20,
+          30
+        ],
+        "dewPointTemp": -5.6,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "17",
+        "localTime": "2019-04-01T18:00:00.000Z",
+        "airTempAboveGround": 0.7,
+        "atmPressureStation": 750.5,
+        "atmPressureSea": 768,
+        "humidity": 56,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          50
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 6.3,
+        "ClCmCloudCover": [
+          50
+        ],
+        "dewPointTemp": -7.1,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "18",
+        "localTime": "2019-04-01T15:00:00.000Z",
+        "airTempAboveGround": 2.5,
+        "atmPressureStation": 748.9,
+        "atmPressureSea": 766.1,
+        "humidity": 64,
+        "windDirection": "Ветер, дующий с северо-северо-запада",
+        "windSpeed": 5,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          60
+        ],
+        "dewPointTemp": -3.7,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "19",
+        "localTime": "2019-04-01T12:00:00.000Z",
+        "airTempAboveGround": 3.4,
+        "atmPressureStation": 747.8,
+        "atmPressureSea": 765,
+        "humidity": 64,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 7,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          90,
+          100
+        ],
+        "dewPointTemp": -2.9,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "20",
+        "localTime": "2019-04-01T09:00:00.000Z",
+        "airTempAboveGround": 4.1,
+        "atmPressureStation": 745.7,
+        "atmPressureSea": 762.8,
+        "humidity": 58,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 7,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          70,
+          80
+        ],
+        "dewPointTemp": -3.4,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "21",
+        "localTime": "2019-04-01T06:00:00.000Z",
+        "airTempAboveGround": 3.1,
+        "atmPressureStation": 743.8,
+        "atmPressureSea": 760.9,
+        "humidity": 61,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 6,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": 1.7,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          60
+        ],
+        "dewPointTemp": -3.8,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "22",
+        "localTime": "2019-04-01T03:00:00.000Z",
+        "airTempAboveGround": 2.3,
+        "atmPressureStation": 741.7,
+        "atmPressureSea": 758.8,
+        "humidity": 76,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": 2.3,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          90,
+          100
+        ],
+        "dewPointTemp": -1.6,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "23",
+        "localTime": "2019-04-01T00:00:00.000Z",
+        "airTempAboveGround": 4.4,
+        "atmPressureStation": 740.2,
+        "atmPressureSea": 757.2,
+        "humidity": 77,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          60
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          60
+        ],
+        "dewPointTemp": 0.7,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "24",
+        "localTime": "2019-03-31T21:00:00.000Z",
+        "airTempAboveGround": 6.1,
+        "atmPressureStation": 739.1,
+        "atmPressureSea": 755.9,
+        "humidity": 79,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          20,
+          30
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          20,
+          30
+        ],
+        "dewPointTemp": 2.6,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "25",
+        "localTime": "2019-03-31T18:00:00.000Z",
+        "airTempAboveGround": 9.9,
+        "atmPressureStation": 737.5,
+        "atmPressureSea": 754.1,
+        "humidity": 53,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 15,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 0.7,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "26",
+        "localTime": "2019-03-31T15:00:00.000Z",
+        "airTempAboveGround": 13.2,
+        "atmPressureStation": 737.2,
+        "atmPressureSea": 753.6,
+        "humidity": 40,
+        "windDirection": "Ветер, дующий с юго-юго-запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          70,
+          80
+        ],
+        "dewPointTemp": -0.1,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "27",
+        "localTime": "2019-03-31T12:00:00.000Z",
+        "airTempAboveGround": 14.5,
+        "atmPressureStation": 738.4,
+        "atmPressureSea": 754.8,
+        "humidity": 40,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          60
+        ],
+        "dewPointTemp": 1.1,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "28",
+        "localTime": "2019-03-31T09:00:00.000Z",
+        "airTempAboveGround": 13.1,
+        "atmPressureStation": 739.6,
+        "atmPressureSea": 756,
+        "humidity": 45,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          20,
+          30
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          0
+        ],
+        "dewPointTemp": 1.2,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": false,
+        "cloudsCm": false
+      },
+      {
+        "id": "29",
+        "localTime": "2019-03-31T06:00:00.000Z",
+        "airTempAboveGround": 6.4,
+        "atmPressureStation": 740.4,
+        "atmPressureSea": 757.2,
+        "humidity": 68,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          60
+        ],
+        "minAirTemp": 2.4,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          0,
+          10
+        ],
+        "dewPointTemp": 0.9,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "30",
+        "localTime": "2019-03-31T03:00:00.000Z",
+        "airTempAboveGround": 2.8,
+        "atmPressureStation": 741.1,
+        "atmPressureSea": 758.2,
+        "humidity": 86,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 3,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": 2.6,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          90,
+          100
+        ],
+        "dewPointTemp": 0.7,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "31",
+        "localTime": "2019-03-31T00:00:00.000Z",
+        "airTempAboveGround": 3.2,
+        "atmPressureStation": 742.1,
+        "atmPressureSea": 759.2,
+        "humidity": 85,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 0.9,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "32",
+        "localTime": "2019-03-30T21:00:00.000Z",
+        "airTempAboveGround": 5,
+        "atmPressureStation": 742.8,
+        "atmPressureSea": 759.7,
+        "humidity": 79,
+        "windDirection": "Ветер, дующий с юго-юго-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 1.7,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "33",
+        "localTime": "2019-03-30T18:00:00.000Z",
+        "airTempAboveGround": 4.4,
+        "atmPressureStation": 743.2,
+        "atmPressureSea": 760.3,
+        "humidity": 82,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 10.3,
+        "ClCmCloudCover": [
+          70,
+          80
+        ],
+        "dewPointTemp": 1.5,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "34",
+        "localTime": "2019-03-30T15:00:00.000Z",
+        "airTempAboveGround": 8.7,
+        "atmPressureStation": 742.4,
+        "atmPressureSea": 759.1,
+        "humidity": 64,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          20,
+          30
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          20,
+          30
+        ],
+        "dewPointTemp": 2.3,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "35",
+        "localTime": "2019-03-30T12:00:00.000Z",
+        "airTempAboveGround": 7.7,
+        "atmPressureStation": 742,
+        "atmPressureSea": 758.8,
+        "humidity": 68,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 2.2,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "36",
+        "localTime": "2019-03-30T09:00:00.000Z",
+        "airTempAboveGround": 6.7,
+        "atmPressureStation": 741.6,
+        "atmPressureSea": 758.4,
+        "humidity": 72,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 2,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "37",
+        "localTime": "2019-03-30T06:00:00.000Z",
+        "airTempAboveGround": 5,
+        "atmPressureStation": 741.5,
+        "atmPressureSea": 758.5,
+        "humidity": 85,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": 1.2,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 2.6,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "38",
+        "localTime": "2019-03-30T03:00:00.000Z",
+        "airTempAboveGround": 4.1,
+        "atmPressureStation": 741.1,
+        "atmPressureSea": 758.1,
+        "humidity": 89,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": 1.2,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          90,
+          100
+        ],
+        "dewPointTemp": 2.4,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "39",
+        "localTime": "2019-03-30T00:00:00.000Z",
+        "airTempAboveGround": 3.8,
+        "atmPressureStation": 741.2,
+        "atmPressureSea": 758.2,
+        "humidity": 88,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          90,
+          100
+        ],
+        "dewPointTemp": 1.9,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "40",
+        "localTime": "2019-03-29T21:00:00.000Z",
+        "airTempAboveGround": 1.3,
+        "atmPressureStation": 742,
+        "atmPressureSea": 759.3,
+        "humidity": 99,
+        "windDirection": "Ветер, дующий с юго-юго-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": 1.1,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "41",
+        "localTime": "2019-03-29T18:00:00.000Z",
+        "airTempAboveGround": 2.3,
+        "atmPressureStation": 742.6,
+        "atmPressureSea": 759.7,
+        "humidity": 95,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 1,
+        "cloudCover": [
+          60
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 5,
+        "ClCmCloudCover": [
+          0
+        ],
+        "dewPointTemp": 1.6,
+        "precipitation": 0.5,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": false,
+        "cloudsCm": false
+      },
+      {
+        "id": "42",
+        "localTime": "2019-03-29T15:00:00.000Z",
+        "airTempAboveGround": 4.7,
+        "atmPressureStation": 743,
+        "atmPressureSea": 760,
+        "humidity": 80,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 1,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 1.5,
+        "precipitation": 0.5,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "43",
+        "localTime": "2019-03-29T12:00:00.000Z",
+        "airTempAboveGround": 4.4,
+        "atmPressureStation": 744,
+        "atmPressureSea": 761,
+        "humidity": 83,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 1.8,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "44",
+        "localTime": "2019-03-29T09:00:00.000Z",
+        "airTempAboveGround": 2.6,
+        "atmPressureStation": 744.7,
+        "atmPressureSea": 761.8,
+        "humidity": 95,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 1,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": 1.8,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "45",
+        "localTime": "2019-03-29T06:00:00.000Z",
+        "airTempAboveGround": 1.3,
+        "atmPressureStation": 745.9,
+        "atmPressureSea": 763.2,
+        "humidity": 87,
+        "windDirection": "Ветер, дующий с западо-юго-запада",
+        "windSpeed": 1,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": -0.7,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": -0.7,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": [
+          0,
+          0.5
+        ],
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "46",
+        "localTime": "2019-03-29T03:00:00.000Z",
+        "airTempAboveGround": -0.5,
+        "atmPressureStation": 746.6,
+        "atmPressureSea": 764,
+        "humidity": 75,
+        "windDirection": "Ветер, дующий с юго-юго-запада",
+        "windSpeed": 1,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": -0.7,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": -4.4,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "47",
+        "localTime": "2019-03-29T00:00:00.000Z",
+        "airTempAboveGround": -0.3,
+        "atmPressureStation": 748,
+        "atmPressureSea": 765.4,
+        "humidity": 68,
+        "windDirection": "Ветер, дующий с западо-юго-запада",
+        "windSpeed": 1,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": -5.5,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "48",
+        "localTime": "2019-03-28T21:00:00.000Z",
+        "airTempAboveGround": 0.2,
+        "atmPressureStation": 748.6,
+        "atmPressureSea": 766,
+        "humidity": 63,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          70,
+          80
+        ],
+        "dewPointTemp": -6,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "49",
+        "localTime": "2019-03-28T18:00:00.000Z",
+        "airTempAboveGround": 1.3,
+        "atmPressureStation": 749.3,
+        "atmPressureSea": 766.7,
+        "humidity": 54,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 1,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 4.9,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": -7,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "50",
+        "localTime": "2019-03-28T15:00:00.000Z",
+        "airTempAboveGround": 2.8,
+        "atmPressureStation": 749.2,
+        "atmPressureSea": 766.5,
+        "humidity": 34,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          90,
+          100
+        ],
+        "dewPointTemp": -11.6,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "51",
+        "localTime": "2019-03-28T12:00:00.000Z",
+        "airTempAboveGround": 4.1,
+        "atmPressureStation": 749.6,
+        "atmPressureSea": 766.9,
+        "humidity": 31,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          70,
+          80
+        ],
+        "dewPointTemp": -11.5,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "52",
+        "localTime": "2019-03-28T09:00:00.000Z",
+        "airTempAboveGround": 2,
+        "atmPressureStation": 750.3,
+        "atmPressureSea": 767.6,
+        "humidity": 44,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 5,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          60
+        ],
+        "dewPointTemp": -9.1,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "53",
+        "localTime": "2019-03-28T06:00:00.000Z",
+        "airTempAboveGround": -2.3,
+        "atmPressureStation": 750.4,
+        "atmPressureSea": 768,
+        "humidity": 75,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": -4.9,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          50
+        ],
+        "dewPointTemp": -6.1,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": [
+          0,
+          0.5
+        ],
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "54",
+        "localTime": "2019-03-28T03:00:00.000Z",
+        "airTempAboveGround": -4.6,
+        "atmPressureStation": 749.1,
+        "atmPressureSea": 766.9,
+        "humidity": 93,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": -4.9,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          70,
+          80
+        ],
+        "dewPointTemp": -5.6,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "55",
+        "localTime": "2019-03-28T00:00:00.000Z",
+        "airTempAboveGround": -4.1,
+        "atmPressureStation": 748.5,
+        "atmPressureSea": 766.2,
+        "humidity": 91,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          0,
+          10
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          0
+        ],
+        "dewPointTemp": -5.3,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": false,
+        "cloudsCm": false
+      },
+      {
+        "id": "56",
+        "localTime": "2019-03-27T21:00:00.000Z",
+        "airTempAboveGround": -3.1,
+        "atmPressureStation": 748,
+        "atmPressureSea": 765.7,
+        "humidity": 87,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -5,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "57",
+        "localTime": "2019-03-27T18:00:00.000Z",
+        "airTempAboveGround": -2.6,
+        "atmPressureStation": 747.4,
+        "atmPressureSea": 765,
+        "humidity": 81,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          20,
+          30
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 2,
+        "ClCmCloudCover": [
+          20,
+          30
+        ],
+        "dewPointTemp": -5.5,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "58",
+        "localTime": "2019-03-27T15:00:00.000Z",
+        "airTempAboveGround": 0,
+        "atmPressureStation": 745.9,
+        "atmPressureSea": 763.3,
+        "humidity": 70,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          50
+        ],
+        "dewPointTemp": -4.9,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "59",
+        "localTime": "2019-03-27T12:00:00.000Z",
+        "airTempAboveGround": 0.4,
+        "atmPressureStation": 745,
+        "atmPressureSea": 762.4,
+        "humidity": 61,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          100
+        ],
+        "dewPointTemp": -6.3,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": null
+      },
+      {
+        "id": "60",
+        "localTime": "2019-03-27T09:00:00.000Z",
+        "airTempAboveGround": 1.1,
+        "atmPressureStation": 743.6,
+        "atmPressureSea": 760.9,
+        "humidity": 61,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          60
+        ],
+        "dewPointTemp": -5.6,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "61",
+        "localTime": "2019-03-27T06:00:00.000Z",
+        "airTempAboveGround": -1.4,
+        "atmPressureStation": 742.7,
+        "atmPressureSea": 760.1,
+        "humidity": 70,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          0,
+          10
+        ],
+        "minAirTemp": -7,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          0
+        ],
+        "dewPointTemp": -6.2,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": [
+          1
+        ],
+        "cloudsCl": false,
+        "cloudsCm": false
+      },
+      {
+        "id": "62",
+        "localTime": "2019-03-27T03:00:00.000Z",
+        "airTempAboveGround": -6.1,
+        "atmPressureStation": 741.5,
+        "atmPressureSea": 759.2,
+        "humidity": 90,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 1,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": -6.1,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -7.5,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "63",
+        "localTime": "2019-03-27T00:00:00.000Z",
+        "airTempAboveGround": -5.4,
+        "atmPressureStation": 740.6,
+        "atmPressureSea": 758.2,
+        "humidity": 95,
+        "windDirection": "Штиль, безветрие",
+        "windSpeed": 0,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -6.1,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "64",
+        "localTime": "2019-03-26T21:00:00.000Z",
+        "airTempAboveGround": -3.6,
+        "atmPressureStation": 740.2,
+        "atmPressureSea": 757.6,
+        "humidity": 82,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 1,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -6.2,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "65",
+        "localTime": "2019-03-26T18:00:00.000Z",
+        "airTempAboveGround": -1.5,
+        "atmPressureStation": 739,
+        "atmPressureSea": 756.4,
+        "humidity": 91,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          0
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 6.2,
+        "ClCmCloudCover": null,
+        "dewPointTemp": -2.8,
+        "precipitation": 0.7,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "66",
+        "localTime": "2019-03-26T15:00:00.000Z",
+        "airTempAboveGround": 0.5,
+        "atmPressureStation": 737.6,
+        "atmPressureSea": 754.8,
+        "humidity": 96,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          90,
+          100
+        ],
+        "dewPointTemp": -0.1,
+        "precipitation": 0.7,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "67",
+        "localTime": "2019-03-26T12:00:00.000Z",
+        "airTempAboveGround": 3.4,
+        "atmPressureStation": 736.7,
+        "atmPressureSea": 753.7,
+        "humidity": 69,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          90,
+          100
+        ],
+        "dewPointTemp": -1.8,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "68",
+        "localTime": "2019-03-26T09:00:00.000Z",
+        "airTempAboveGround": 5.3,
+        "atmPressureStation": 735.7,
+        "atmPressureSea": 752.5,
+        "humidity": 51,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 3,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          70,
+          80
+        ],
+        "dewPointTemp": -4.1,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "69",
+        "localTime": "2019-03-26T06:00:00.000Z",
+        "airTempAboveGround": 0.9,
+        "atmPressureStation": 735.9,
+        "atmPressureSea": 753,
+        "humidity": 59,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": -2.4,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          40
+        ],
+        "dewPointTemp": -6.3,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": [
+          1
+        ],
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "70",
+        "localTime": "2019-03-26T03:00:00.000Z",
+        "airTempAboveGround": -1.3,
+        "atmPressureStation": 735.9,
+        "atmPressureSea": 753.1,
+        "humidity": 62,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": -2.4,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          40
+        ],
+        "dewPointTemp": -7.7,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "71",
+        "localTime": "2019-03-26T00:00:00.000Z",
+        "airTempAboveGround": -1.4,
+        "atmPressureStation": 736.7,
+        "atmPressureSea": 754,
+        "humidity": 65,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": [
+          90,
+          100
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          0
+        ],
+        "dewPointTemp": -7.3,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": false,
+        "cloudsCm": false
+      },
+      {
+        "id": "72",
+        "localTime": "2019-03-25T21:00:00.000Z",
+        "airTempAboveGround": -0.3,
+        "atmPressureStation": 737.6,
+        "atmPressureSea": 754.8,
+        "humidity": 60,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          0
+        ],
+        "dewPointTemp": -7.2,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": false,
+        "cloudsCm": false
+      },
+      {
+        "id": "73",
+        "localTime": "2019-03-25T18:00:00.000Z",
+        "airTempAboveGround": 0.5,
+        "atmPressureStation": 737.9,
+        "atmPressureSea": 755.1,
+        "humidity": 63,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": [
+          50
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": 7.7,
+        "ClCmCloudCover": [
+          0
+        ],
+        "dewPointTemp": -5.9,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": false,
+        "cloudsCm": false
+      },
+      {
+        "id": "74",
+        "localTime": "2019-03-25T15:00:00.000Z",
+        "airTempAboveGround": 6.3,
+        "atmPressureStation": 737.7,
+        "atmPressureSea": 754.5,
+        "humidity": 39,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 2,
+        "cloudCover": [
+          70,
+          80
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          0
+        ],
+        "dewPointTemp": -6.6,
+        "precipitation": 0,
+        "precipitationAccumulationTime": 12,
+        "snowDepth": null,
+        "cloudsCl": false,
+        "cloudsCm": false
+      },
+      {
+        "id": "75",
+        "localTime": "2019-03-25T12:00:00.000Z",
+        "airTempAboveGround": 7.3,
+        "atmPressureStation": 738,
+        "atmPressureSea": 754.7,
+        "humidity": 44,
+        "windDirection": "Ветер, дующий с западо-северо-запада",
+        "windSpeed": 4,
+        "cloudCover": [
+          40
+        ],
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": [
+          0,
+          10
+        ],
+        "dewPointTemp": -4.3,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": true,
+        "cloudsCm": false
+      },
+      {
+        "id": "76",
+        "localTime": "2019-03-25T09:00:00.000Z",
+        "airTempAboveGround": 6,
+        "atmPressureStation": 738.4,
+        "atmPressureSea": 755.3,
+        "humidity": 41,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "77",
+        "localTime": "2019-03-25T06:00:00.000Z",
+        "airTempAboveGround": 1.6,
+        "atmPressureStation": 738.9,
+        "atmPressureSea": 756.1,
+        "humidity": 59,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "78",
+        "localTime": "2019-03-25T03:00:00.000Z",
+        "airTempAboveGround": -2.5,
+        "atmPressureStation": 738.6,
+        "atmPressureSea": 756.1,
+        "humidity": 80,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "79",
+        "localTime": "2019-03-25T00:00:00.000Z",
+        "airTempAboveGround": -1.8,
+        "atmPressureStation": 738.7,
+        "atmPressureSea": 756.1,
+        "humidity": 92,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 1,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "80",
+        "localTime": "2019-03-24T21:00:00.000Z",
+        "airTempAboveGround": -1.4,
+        "atmPressureStation": 739.4,
+        "atmPressureSea": 756.8,
+        "humidity": 98,
+        "windDirection": "Штиль, безветрие",
+        "windSpeed": 0,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "81",
+        "localTime": "2019-03-24T18:00:00.000Z",
+        "airTempAboveGround": 0.6,
+        "atmPressureStation": 739.5,
+        "atmPressureSea": 756.8,
+        "humidity": 95,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "82",
+        "localTime": "2019-03-24T15:00:00.000Z",
+        "airTempAboveGround": 1.2,
+        "atmPressureStation": 738.9,
+        "atmPressureSea": 756.1,
+        "humidity": 96,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 3,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "83",
+        "localTime": "2019-03-24T12:00:00.000Z",
+        "airTempAboveGround": 4,
+        "atmPressureStation": 739.1,
+        "atmPressureSea": 756.1,
+        "humidity": 74,
+        "windDirection": "Ветер, дующий с запада",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "84",
+        "localTime": "2019-03-24T09:00:00.000Z",
+        "airTempAboveGround": 0.9,
+        "atmPressureStation": 740.3,
+        "atmPressureSea": 757.6,
+        "humidity": 94,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "85",
+        "localTime": "2019-03-24T06:00:00.000Z",
+        "airTempAboveGround": -0.5,
+        "atmPressureStation": 741.7,
+        "atmPressureSea": 759.1,
+        "humidity": 95,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "86",
+        "localTime": "2019-03-24T03:00:00.000Z",
+        "airTempAboveGround": -0.2,
+        "atmPressureStation": 743.2,
+        "atmPressureSea": 760.6,
+        "humidity": 79,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "87",
+        "localTime": "2019-03-24T00:00:00.000Z",
+        "airTempAboveGround": -1.8,
+        "atmPressureStation": 746,
+        "atmPressureSea": 763.6,
+        "humidity": 89,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "88",
+        "localTime": "2019-03-23T21:00:00.000Z",
+        "airTempAboveGround": -2.7,
+        "atmPressureStation": 748.1,
+        "atmPressureSea": 765.8,
+        "humidity": 89,
+        "windDirection": "Ветер, дующий с юга",
+        "windSpeed": 1,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "89",
+        "localTime": "2019-03-23T18:00:00.000Z",
+        "airTempAboveGround": -1,
+        "atmPressureStation": 749,
+        "atmPressureSea": 766.6,
+        "humidity": 81,
+        "windDirection": "Ветер, дующий с юго-запада",
+        "windSpeed": 1,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "90",
+        "localTime": "2019-03-23T15:00:00.000Z",
+        "airTempAboveGround": 3.9,
+        "atmPressureStation": 749.3,
+        "atmPressureSea": 766.6,
+        "humidity": 61,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 3,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "91",
+        "localTime": "2019-03-23T12:00:00.000Z",
+        "airTempAboveGround": 5.2,
+        "atmPressureStation": 750.1,
+        "atmPressureSea": 767.3,
+        "humidity": 56,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 2,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "92",
+        "localTime": "2019-03-23T09:00:00.000Z",
+        "airTempAboveGround": 3.3,
+        "atmPressureStation": 750,
+        "atmPressureSea": 767.3,
+        "humidity": 66,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 3,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "93",
+        "localTime": "2019-03-23T06:00:00.000Z",
+        "airTempAboveGround": 1.2,
+        "atmPressureStation": 749.1,
+        "atmPressureSea": 766.6,
+        "humidity": 84,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 3,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "94",
+        "localTime": "2019-03-23T03:00:00.000Z",
+        "airTempAboveGround": 0.4,
+        "atmPressureStation": 746.2,
+        "atmPressureSea": 763.6,
+        "humidity": 96,
+        "windDirection": "Ветер, дующий с севера",
+        "windSpeed": 4,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "95",
+        "localTime": "2019-03-23T00:00:00.000Z",
+        "airTempAboveGround": 0.2,
+        "atmPressureStation": 743.9,
+        "atmPressureSea": 761.3,
+        "humidity": 93,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 5,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "96",
+        "localTime": "2019-03-22T21:00:00.000Z",
+        "airTempAboveGround": -0.8,
+        "atmPressureStation": 743.8,
+        "atmPressureSea": 761.3,
+        "humidity": 89,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 5,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "97",
+        "localTime": "2019-03-22T18:00:00.000Z",
+        "airTempAboveGround": -0.3,
+        "atmPressureStation": 743.2,
+        "atmPressureSea": 760.6,
+        "humidity": 81,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 6,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "98",
+        "localTime": "2019-03-22T15:00:00.000Z",
+        "airTempAboveGround": 1.1,
+        "atmPressureStation": 741.8,
+        "atmPressureSea": 759.1,
+        "humidity": 70,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 7,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "99",
+        "localTime": "2019-03-22T12:00:00.000Z",
+        "airTempAboveGround": 2.4,
+        "atmPressureStation": 740.4,
+        "atmPressureSea": 757.6,
+        "humidity": 74,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 7,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      },
+      {
+        "id": "100",
+        "localTime": "2019-03-22T09:00:00.000Z",
+        "airTempAboveGround": 2.1,
+        "atmPressureStation": 738.2,
+        "atmPressureSea": 755.3,
+        "humidity": 99,
+        "windDirection": "Ветер, дующий с северо-запада",
+        "windSpeed": 5,
+        "cloudCover": null,
+        "minAirTemp": null,
+        "maxAirTemp": null,
+        "ClCmCloudCover": null,
+        "dewPointTemp": null,
+        "precipitation": null,
+        "precipitationAccumulationTime": null,
+        "snowDepth": null,
+        "cloudsCl": null,
+        "cloudsCm": null
+      }
+    ]
+  }
+}
