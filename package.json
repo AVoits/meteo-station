@@ -7,8 +7,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build": "ng build --prod --base-href \"https://avoits.github.io/meteo-station/\"",
-    "publish": "npx angular-cli-ghpages"
+    "build": "ng build --prod"
   },
   "private": true,
   "dependencies": {
