@@ -3,9 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeroesComponent } from './heroes/heroes.component';
 import {FormsModule} from '@angular/forms';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -19,33 +17,16 @@ import {
   MatMenuModule
 } from '@angular/material';
 import { AboutComponent } from './components/about/about.component';
-import { StaffComponent } from './components/staff/staff.component';
-import { PersonalPageComponent } from './components/personal-page/personal-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {DataMeteoComponent} from './components/data-meteo/data-meteo.component';
 import {HomeComponent} from './components/home/home.component';
-import {SlideshowModule} from "ng-simple-slideshow";
-
+import {SlideshowModule} from 'ng-simple-slideshow';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import {PersonModule} from './components/personal/person.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeroesComponent,
-    HeroDetailComponent,
-    MessagesComponent,
-    MenuComponent,
-    HeaderComponent,
-    AboutComponent,
-    StaffComponent,
-    PersonalPageComponent,
-    FooterComponent,
-    DataMeteoComponent,
-    HomeComponent
-  ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule,
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
@@ -54,8 +35,24 @@ import {SlideshowModule} from "ng-simple-slideshow";
     MatCardModule,
     MatGridListModule,
     SlideshowModule,
+    PersonModule,
+    AppRoutingModule
   ],
+  declarations: [
+    AppComponent,
+    MessagesComponent,
+    MenuComponent,
+    HeaderComponent,
+    AboutComponent,
+    FooterComponent,
+    DataMeteoComponent,
+    HomeComponent,
+    NotFoundComponent
+  ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }

@@ -1,0 +1,39 @@
+<div>
+  <h2>Научный и технический персонал</h2>
+</div>
+
+<div class="staffWrapper">
+
+  <mat-card
+    *ngFor="let person of persons$ | async"
+    [class.selected]="person.id === selectedId"
+    class="staffItem">
+    <div
+      class="person-card-photo"
+      [ngStyle]="{ 'background-image': 'url(' + person.photo + ')'}"></div>
+    <div class="card-info">
+      <div>
+        <mat-card-header>
+          <mat-card-title>{{person.name}}</mat-card-title>
+          <mat-card-subtitle>{{person.degree}}</mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>{{person.jobPosition}}</mat-card-content>
+      </div>
+      <div>
+        <button mat-button>
+          <mat-icon>mail_outline</mat-icon>
+        </button>
+        <button  mat-button [routerLink]="['/person', person.id]">Личная страница</button>
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+
+
+
+
+
+
+
