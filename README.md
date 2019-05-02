@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 1:  ng build --prod --base-href "https://avoits.github.io/meteo-station/"
-2:  npx angular-cli-ghpages
+2:  

@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {FormsModule} from '@angular/forms';
 import { MessagesComponent } from './messages/messages.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -23,11 +22,17 @@ import {HomeComponent} from './components/home/home.component';
 import {SlideshowModule} from 'ng-simple-slideshow';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import {PersonModule} from './components/personal/person.module';
+import { HistoryComponent } from './components/static-pages/history/history.component';
+import { StaticPagesModule } from './components/static-pages/static-pages.module';
+import { MissionComponent } from './components/static-pages/mission/mission.component';
+import { ReservoirComponent } from './components/static-pages/reservoir/reservoir.component';
+import {LightboxModule} from 'ngx-lightbox';
 
 @NgModule({
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    LightboxModule,
     MatButtonModule,
     MatCheckboxModule,
     MatMenuModule,
@@ -36,7 +41,8 @@ import {PersonModule} from './components/personal/person.module';
     MatGridListModule,
     SlideshowModule,
     PersonModule,
-    AppRoutingModule
+    StaticPagesModule,
+    AppRoutingModule, // Always must be last!!!
   ],
   declarations: [
     AppComponent,
@@ -47,7 +53,7 @@ import {PersonModule} from './components/personal/person.module';
     FooterComponent,
     DataMeteoComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
   ],
 
   providers: [],

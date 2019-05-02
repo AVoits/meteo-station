@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "~normalize.scss/normalize";
+@import "~ngx-lightbox/lightbox.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,3 +20,38 @@ h2 {
 p {
   margin: 0 0 20px;
 }
+
+.forIeWarning {
+  padding: 30px 0;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+
+  .linkForBrowsers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      display: block;
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .forChrome {
+    background-image: url("assets/browsers/chrome-logo.svg");
+  }
+
+  .forFF {
+    background-image: url("assets/browsers/logo-quantum.png");
+  }
+
+  .forOpera {
+    background-image: url("assets/browsers/logo-header-opera.png");
+  }
+}
+
+
