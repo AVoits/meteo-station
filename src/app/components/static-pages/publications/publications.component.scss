@@ -1,0 +1,30 @@
+@import "../../../styles/commonStyles";
+
+.title-tabs {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: normal;
+}
+
+
+.years-line {
+  color: $primary;
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+
+.item-line {
+  max-width: 900px;
+  padding: 10px 0;
+  display: flex;
+
+  .item-text {
+    padding-right: 30px;
+  }
+
+  .item-line-link {
+    display: block;
+    color: $p500;
+  }
+}

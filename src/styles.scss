@@ -1,7 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/theming';
 @import "~normalize.scss/normalize";
 @import "~ngx-lightbox/lightbox.css";
+@import "app/styles/commonStyles";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -55,3 +56,85 @@ p {
 }
 
 
+.right-block {
+  float: right;
+}
+
+.left-block {
+  float: left;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+
+.image-with-title {
+  text-align: center;
+
+  img {
+    max-width: 600px;
+    padding: 10px;
+  }
+
+  & > div {
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  a {
+    color: $p500;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+}
+
+
+
+$custom-typography: mat-typography-config(
+  $font-family: '"Open Sans", sans-serif',
+  $headline: mat-typography-level(32px, 48px, 700),
+  $body-1: mat-typography-level(16px, 24px, 500)
+);
+
+$primary: mat-palette($mat-indigo);
+$accent:  mat-palette($mat-pink, A200, A100, A400);
+$theme: mat-light-theme($primary, $accent);
+
+
+@include mat-core();
+@include angular-material-theme($theme);
+@include angular-material-typography($custom-typography);
+
+
+
+@mixin my-accordion($theme) {
+
+  .station-accordion .mat-expansion-panel {
+    margin: 0 15px;
+  }
+
+  .station-accordion .mat-expansion-panel-header {
+    height: auto!important;
+    padding: 15px;
+    color: $p500;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+
+  .station-accordion .mat-expansion-panel-spacing {
+    margin: 15px;
+  }
+}
+
+
+@mixin my-menu($theme) {
+
+  .main-naw-menu .mat-menu-panel {
+    max-width: max-content;
+  }
+}
+
+@include my-accordion($theme);
+@include my-menu($theme);

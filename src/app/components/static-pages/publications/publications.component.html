@@ -1,0 +1,46 @@
+<h2>Публикации</h2>
+
+<mat-tab-group animationDuration="0ms" dynamicHeight>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <div class="title-tabs">Статьи</div>
+    </ng-template>
+
+    <div *ngFor="let item of articles$">
+      <div class="years-line">{{item.year}}</div>
+
+      <div *ngFor="let art of item.items" class="item-line">
+        <div class="item-text">{{art.title}}</div>
+
+        <a href="{{art.linkTo}}"
+           class="item-line-link"
+           *ngIf="art.linkTo"
+           [ngSwitch]="art.typeIcon">
+          <ng-template [ngSwitchCase]="'link'"><mat-icon>link</mat-icon></ng-template>
+          <ng-template [ngSwitchCase]="'file'"><mat-icon>insert_drive_file</mat-icon></ng-template>
+          <ng-template ngSwitchDefault></ng-template>
+        </a>
+      </div>
+
+    </div>
+
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <div class="title-tabs">Книги</div>
+    </ng-template>
+
+
+    <div *ngFor="let book of books$" class="item-line">
+      <div class="item-text">{{book.title}}</div>
+
+      <a *ngIf="book.linkTo"
+          href="{{book.linkTo}}"
+          class="item-line-link">
+        <mat-icon>insert_drive_file</mat-icon>
+      </a>
+    </div>
+
+  </mat-tab>
+</mat-tab-group>

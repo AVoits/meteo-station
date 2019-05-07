@@ -6,21 +6,15 @@
 
       <mat-menu #appMenu="matMenu">
 
-        <div
-          mat-menu-item
-          *ngFor="let item of menu.items" >
-            <a
-              [class.main-naw-link]="item"
-              routerLink="{{item.linkTo}}">
+        <div mat-menu-item *ngFor="let item of menu.items" >
+            <a [class.main-naw-link]="item" routerLink="{{item.linkTo}}">
                 {{item.title}}
             </a>
         </div>
       </mat-menu>
 
 
-      <button mat-icon-button [matMenuTriggerFor]="appMenu">
-        <div>{{menu.title}}</div>
-      </button>
+      <button mat-icon-button [matMenuTriggerFor]="appMenu">{{menu.title}}</button>
     </li>
   </ul>
 </nav>

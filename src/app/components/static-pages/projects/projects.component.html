@@ -1,0 +1,58 @@
+<h2>Проекты</h2>
+
+<mat-tab-group animationDuration="0ms">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <div class="title-tabs">Действующие проекты</div>
+    </ng-template>
+
+    <div *ngFor="let item of activeProjects">
+      <h3>{{item.theme}}</h3>
+      <div class="notes-style">{{item.notes}}</div>
+      <div>{{item.participants}}</div>
+      <div [innerHTML]=item.description></div>
+    </div>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <div class="title-tabs">Завершенные проекты</div>
+    </ng-template>
+    <div>
+
+      <h3>Контракты</h3>
+      <div class="wrapper-station-accordion">
+
+        <mat-accordion class="station-accordion">
+          <mat-expansion-panel *ngFor="let item of contracts$">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                {{item.theme}}
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div>{{item.participants}}</div>
+            <div class="notes-style">{{item.notes}}</div>
+            <div [innerHTML]=item.description></div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+
+      <h3>Гранты</h3>
+      <div class="wrapper-station-accordion">
+        <mat-accordion class="station-accordion">
+          <mat-expansion-panel *ngFor="let item of grants$">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                {{item.theme}}
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div>{{item.participants}}</div>
+            <div class="notes-style">{{item.notes}}</div>
+            <div [innerHTML]=item.description></div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+
+    </div>
+  </mat-tab>
+</mat-tab-group>

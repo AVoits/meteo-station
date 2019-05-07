@@ -1,0 +1,15 @@
+@import "../../../styles/commonStyles";
+
+.table-simple {
+  margin: 20px 0;
+
+  caption {
+    padding: 10px;
+    font-weight: bolder;
+  }
+}
+
+.table-simple-cell {
+  padding: 10px 15px;
+  border: 1px solid $p200;
+}

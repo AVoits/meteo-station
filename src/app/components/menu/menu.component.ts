@@ -57,11 +57,11 @@ const MenuData: Menu[] = [
     items: [
       {
         title: 'Проекты',
-        linkTo: 'study',
+        linkTo: 'projects',
       },
       {
         title: 'Публикации',
-        linkTo: 'practise',
+        linkTo: 'publications',
       },
     ]
   },
