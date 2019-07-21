@@ -1,0 +1,73 @@
+@import "../../../styles/commonStyles";
+
+.Root {
+  background-color: $primary;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+
+.HeaderWrapper {
+  max-width: 1200px;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.LogoWrapper {
+  width: 240px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+
+  & > svg {
+    width: 80px;
+    width: 80px;
+  }
+}
+
+
+.ExternalLink {
+  text-decoration: none;
+
+}
+
+.LinkTitle {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.LogoText {
+  height: 40px;
+  text-align: center;
+  color: #ffffff;
+
+  }
+
+.LanguageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 0 0;
+
+}
+
+.Language {
+  width: 28px;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 1.0;
+}
+
+  

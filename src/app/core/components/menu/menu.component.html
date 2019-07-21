@@ -1,0 +1,17 @@
+<nav>
+  <ul class="main-naw-menu">
+    <li *ngFor="let menu of menuList" class="main-naw-menu-li" >
+
+      <button mat-menu-item [matMenuTriggerFor]="appMenu">{{menu.title}}</button>
+
+      <mat-menu #appMenu="matMenu">
+
+        <button class="mat-menu-item-inner"
+          *ngFor="let item of menu.items"
+          (click)="goToDocumentById(item.linkTo)"
+          mat-menu-item
+          >{{item.title}}</button>
+      </mat-menu>
+    </li>
+  </ul>
+</nav>

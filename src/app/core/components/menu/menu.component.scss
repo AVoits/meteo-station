@@ -1,0 +1,25 @@
+@import "../../../styles/commonStyles";
+
+.main-naw-menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+
+.main-naw-menu-li {
+  list-style: none;
+}
+
+.mat-menu-item {
+  color: #ffffff;
+}
+
+.mat-menu-item-inner {
+  color: $primary;
+  min-height: 48px;
+  height: auto;
+  white-space: normal;
+  line-height: initial;
+}
