@@ -1,23 +1,27 @@
 <h2>Гидрологические данные</h2>
 <h3>Ежедневные расходы воды в р.Москве и р.Лусянке за 1961-1991 гг.</h3>
 
-<mat-form-field>
-  <mat-label>Выберите год</mat-label>
-  <mat-select>
-    <mat-option *ngFor="let yy of years" [value]="yy">
-      {{yy}}
-    </mat-option>
-  </mat-select>
-</mat-form-field>
-<div>
-  <mat-button-toggle-group name="rivers" aria-label="Rivers">
-    <mat-button-toggle value="Q_Moskva">р. Москва</mat-button-toggle>
-    <mat-button-toggle value="Q_Lusyanka">р. Лусянка</mat-button-toggle>
-  </mat-button-toggle-group>
+<div class="wrapper">
+  <mat-form-field>
+    <mat-label>Выберите год</mat-label>
+    <mat-select>
+      <mat-option *ngFor="let yy of years" [value]="yy">
+        {{yy}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Выберите реку</mat-label>
+    <mat-select>
+      <mat-option value="Q_Moskva">р. Москва</mat-option>
+      <mat-option value="Q_Lusyanka">р. Лусянка</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div>
+    <button mat-raised-button color="primary">Построить график</button>
+  </div>
 </div>
-<br />
-<div>
-  <button mat-raised-button color="primary">Построить график</button>
-</div>
+<div class="chart"><canvas #chartLine></canvas></div>
+
 
 
