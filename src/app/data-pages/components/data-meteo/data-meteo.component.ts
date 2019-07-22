@@ -1,6 +1,8 @@
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import Chart from 'chart.js';
 import dataSet from '../../../../assets/data/discharge/1961.json';
+import {DataStoreService} from "../../data-store.service";
+import {FormControl, FormGroup} from "@angular/forms";
 
 
 @Component({
@@ -9,20 +11,37 @@ import dataSet from '../../../../assets/data/discharge/1961.json';
   styleUrls: ['./data-meteo.component.scss']
 })
 export class DataMeteoComponent implements OnInit {
-  public startDate = 1961;
-  public endDate = 1991;
 
-  public years = [];
+  public dataForm: FormGroup;
+
+  public yearsForm = [];
+  public riversForm = ['р. Лусянка', 'р. Москва'];
 
   @ViewChild('chartLine') chartLine: ElementRef;
 
-  constructor() { }
+  constructor(private data: DataStoreService) { }
 
   ngOnInit() {
-    this.getYears();
-    this.createChart();
+    this.initialForm();
+
+    this.getDataForFormInputs();
+
   }
 
+  private initialForm(): void {
+    this.dataForm = new FormGroup({
+      years: new FormControl(),
+      rivers: new FormControl(),
+    });
+  }
+
+  private getDataForFormInputs() {
+    const startEndDAte = this.data.getStartEndDates('discharge');
+
+    for (let i = startEndDAte.start; i <= startEndDAte.end; i++) {
+      this.yearsForm.push(i);
+    }
+  }
 
 
 
@@ -34,6 +53,7 @@ export class DataMeteoComponent implements OnInit {
 
     const labelsL = output.map(item => item.key);
     const dataL = output.map(item => item.value.Q_Lusyanka);
+    const dataM = output.map(item => item.value.Q_Moskva);
 
     const config = {
       type: 'line',
@@ -44,6 +64,12 @@ export class DataMeteoComponent implements OnInit {
           backgroundColor: '#193089',
           borderColor: '#4eaeee',
           data: dataL,
+          fill: true,
+        }, {
+          label: 'расход воды в р.Москве в створе д.Барсуки',
+          backgroundColor: '#8af2ff',
+          borderColor: '#1caab1',
+          data: dataM,
           fill: true,
         }
         ]
@@ -59,10 +85,18 @@ export class DataMeteoComponent implements OnInit {
         },
         scales: {
           xAxes: [{
-            stacked: true
+            type: 'time',
+            time: {
+              displayFormats: {
+                quarter: 'MMM YYYY'
+              }
+            }
           }],
           yAxes: [{
-            stacked: true
+            ticks: {
+              suggestedMin: 50,
+              suggestedMax: 100,
+            }
           }]
         }
       }
@@ -72,10 +106,5 @@ export class DataMeteoComponent implements OnInit {
 
   }
 
-  private getYears() {
-    for (let i = this.startDate; i <= this.endDate; i++) {
-      this.years.push(i);
-    }
-  }
 
 }
